@@ -26,7 +26,7 @@ logging.getLogger("requests").setLevel(logging.WARNING)
 
 logging.info('Started')
 
-bot = telebot.TeleBot(os.getenv('TELEGRAM_TOKEN'))
+bot = telebot.TeleBot(os.getenv('1992189735:AAFs9Rs03dR_KXGMDoau_3PM_civgrUYMXI'))
 bot.remove_webhook()
 
 
